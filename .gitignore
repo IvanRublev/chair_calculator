@@ -1,0 +1,46 @@
+# .gitignore
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.sql
+*.sqlite
+
+# Environments
+.envrc
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*.swn
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.log
+*.sql
+*.sqlite
+*.spec
+
+# Poetry
+/poetry.lock
