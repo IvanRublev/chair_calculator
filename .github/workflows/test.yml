@@ -28,6 +28,6 @@ jobs:
       - name: Run Tests
         run: make test_once
       - name: Run Typechecks
-        run: make typeckeck
+        run: make typecheck
       - name: Run Linter
         run: make lint
